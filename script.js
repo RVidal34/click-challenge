@@ -37,12 +37,12 @@ btnRed.addEventListener('click', () => {
   addRemove('red');
 });
 
- Suppression automatique des cercles au bout de 10 sec
- setTimeout(() => {
-   btnBlue.remove();
-   btnGreen.remove();
-   btnRed.remove();
- }, 15000);
+// Suppression automatique des cercles au bout de 10 sec
+setTimeout(() => {
+  btnBlue.remove();
+  btnGreen.remove();
+  btnRed.remove();
+}, 15000);
 
 // Lance une nouvelle partie
 
